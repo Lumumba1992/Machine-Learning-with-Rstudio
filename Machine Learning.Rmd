@@ -1,0 +1,42 @@
+---
+title: "Machine Learning and Predictive Inference[HIV]"
+author: "Lumumba Wandera Victor"
+date: "2023-06-15"
+output: html_document
+---
+
+### Set up Rstudio
+Setting up RMarkdown when opening it enables you to create dynamic, reproducible, and visually appealing reports, presentations, and documents, that can help you communicate your data analysis and research findings more effectively.
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning=FALSE,comment = NA, message=FALSE,
+                      fig.height=4, fig.width=6)
+```
+
+```{r}
+# Step 1: Data Preparation
+# Load the dataset (assuming the dataset is in a CSV file)
+data <- read.csv("HIV_data.csv")
+head(data,5)
+
+# Step 2: Data Exploration
+# View summary statistics and structure of the dataset
+summary(data)
+str(data)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
